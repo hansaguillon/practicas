@@ -1,0 +1,16 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    color: aqua;
+}
+
+.titulos
+{
+    color: blue;
+}
+
+#titulo-principal{
+    color: greenyellow;
+}
