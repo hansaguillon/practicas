@@ -1,0 +1,160 @@
+body{
+    width: 55%;
+}
+
+.gral
+{
+    border: solid;
+    font-family: Calibri;
+
+}
+.encabezado {
+    display: flex;
+    background-color: gray;
+    flex-direction: column;
+    border-radius: 12px;
+    padding: 8px;
+    margin-top: 4px;
+    border-color: black;
+    border: solid;
+
+    	
+}
+#encabezado
+{
+    width: 40%;
+}
+.contenedorDiv {
+    display: flex;
+    justify-content: space-between;
+    
+}
+.contenedor {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4px;
+
+    
+   
+}
+.logo {
+    background-color: blue; 
+    border: solid;
+    width: 18%;
+    color: white;
+    border-color: black;
+    
+}
+.menu1 {
+    background-color: green;
+    width: 40%;
+    border: solid;
+    color: white;
+    border-color: black;
+    
+}
+.menu2 {
+    background-color: brown;
+    width: 60%;
+    border: solid;
+    color: white;
+    border-color: black;
+    
+}
+.contenedor2
+{
+    display: flex;
+    justify-content:space-between;
+    margin-top: 5px;
+
+}
+
+.contenedor3 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+ 
+
+    
+    }
+
+.contenedor4 {
+    display: flex;
+    flex-direction: column;
+    background-color: skyblue;
+    border-radius: 12px;
+    border: solid;
+    height: 80px;
+    margin-top: 6px;
+    padding-right: 10px;
+
+    
+    }
+    .divPie {
+        padding-left: 8px;
+        align-self: flex-start;
+    }
+    
+    .invisible
+    {
+        height: 15px;
+        width: 25%;
+
+    }
+    .divElemento {
+        align-self:flex-end;
+        justify-self: center;
+        background-color: rgb(3, 3, 68);
+        height: 20px;
+        width: 25%;
+        border: solid;
+        border-color: black;
+        color: white;
+    }
+
+    .divIzq2 {
+        width: 60%;
+        background-color: rgb(1, 77, 1);
+        color: white;
+        padding-top: 4px;
+        height: 140px;
+        border-radius: 12px;
+        border: solid;
+        border-color: black;
+        
+        }
+        
+        .divDere2 {
+        width: 32%;
+        background-color: rgb(174, 113, 0);
+        color: white;
+        border-radius: 12px;
+        border: solid;
+        border-color: black;
+        padding: 5px;
+        
+        }
+
+        
+.divIzq {
+    background-color: rgb(43, 43, 43);
+}
+
+.divCentro {
+    background-color: rgb(130, 203, 232);
+
+}
+.divDere {
+    background-color: rgb(236, 157, 11);
+
+}
+#conte2
+{
+   border-radius: 12px;
+   color: white;
+   padding:  5px;
+   width: 28%;
+   height: 190px;  
+   border: solid;
+   border-color: black;
+}
