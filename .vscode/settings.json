@@ -17,5 +17,6 @@
         }
     },
     "terminal.integrated.shellIntegration.enabled": true,
-    "terminal.integrated.defaultProfile.windows": "Git Bash"
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
+    "livePreview.defaultPreviewPath": "/Entrega a Agustin/Resta.html"
 }
