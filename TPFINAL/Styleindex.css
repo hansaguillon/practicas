@@ -10,46 +10,9 @@ header {
     font-weight: bold;
   }
 
-  .featured-news {
 
-    background-size: cover;
-    background-position: center;
 
-    justify-content: center;
-    align-items: center;
-  }
-  .featured-news h2 {
-    color: #fff;
-    text-align: center;
-    font-size: 28px;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
-  }
-  .secondary-news {
-    gap: 20px;
-    padding: 20px;
- 
-  }
-  .secondary-news .news-card {
-    background-color: #F5F5F5;
-    padding: 10px;
-    border-radius: 5px;    
-  }
-  .secondary-news .news-card h3 {
-    margin: 0;
-    font-size: 18px;
-    margin-bottom: 10px;
 
-  }
-  .secondary-news .news-card p {
 
-    font-size: 14px;
-  }
-  .spamm{
-    color: #ffffff;
-    font-weight: bold;
-    
-  }
-  .flex-conteiner{
-    justify-content: center;
 
-}
+
