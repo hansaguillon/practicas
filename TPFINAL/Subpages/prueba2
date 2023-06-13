@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Página de Noticias</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0/css/bootstrap.min.css">
+</head>
+
+<body>
+  <div class="container mt-5">
+    <h1>Noticias</h1>
+
+    <!-- Noticia -->
+    <div class="card">
+      <img src="imagen1.jpg" class="card-img-top" alt="Imagen 1">
+      <div class="card-body">
+        <h5 class="card-title">Título de la Noticia</h5>
+        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris tempor ex eget mi
+          ullamcorper, id viverra felis lacinia. Sed id turpis sit amet risus finibus efficitur.</p>
+      </div>
+      <img src="imagen2.jpg" class="card-img-top" alt="Imagen 2">
+      <div class="card-body">
+        <p class="card-text">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;
+          Aliquam vitae efficitur est. Vivamus id mi ac felis fermentum tempor. Fusce vulputate lectus nec elit
+          tincidunt.</p>
+      </div>
+      <img src="imagen3.jpg" class="card-img-top" alt="Imagen 3">
+      <div class="card-body">
+        <p class="card-text">Phasellus tincidunt tortor ac dapibus pellentesque. Integer eget sem a dui congue
+          consectetur. Aenean ultricies pharetra metus sed consectetur.</p>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

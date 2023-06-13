@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Página de Noticias</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0/css/bootstrap.min.css">
+</head>
+
+<body>
+  <div class="container mt-5">
+    <h1>Noticias</h1>
+
+    <!-- Solapa de noticias -->
+    <ul class="nav nav-tabs" id="noticiasTabs" role="tablist">
+      <li class="nav-item" role="presentation">
+        <button class="nav-link active" id="noticia1-tab" data-bs-toggle="tab" data-bs-target="#noticia1" type="button"
+          role="tab" aria-controls="noticia1" aria-selected="true">Noticia 1</button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link" id="noticia2-tab" data-bs-toggle="tab" data-bs-target="#noticia2" type="button"
+          role="tab" aria-controls="noticia2" aria-selected="false">Noticia 2</button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link" id="noticia3-tab" data-bs-toggle="tab" data-bs-target="#noticia3" type="button"
+          role="tab" aria-controls="noticia3" aria-selected="false">Noticia 3</button>
+      </li>
+    </ul>
+
+    <!-- Contenido de las noticias -->
+    <div class="tab-content" id="noticiasContent">
+      <div class="tab-pane fade show active" id="noticia1" role="tabpanel" aria-labelledby="noticia1-tab">
+        <h2>Noticia 1</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam a nisl ac metus gravida feugiat sed vel
+          neque. Morbi pharetra, arcu nec faucibus faucibus, turpis odio condimentum est, at fermentum ligula orci a
+          dolor. Sed id risus neque. </p>
+      </div>
+      <div class="tab-pane fade" id="noticia2" role="tabpanel" aria-labelledby="noticia2-tab">
+        <h2>Noticia 2</h2>
+        <p>Phasellus vulputate commodo efficitur. Etiam consequat velit id gravida tincidunt. Aliquam ac pulvinar ex,
+          sit amet laoreet felis. Donec eu justo sit amet ligula malesuada tristique. Vestibulum fermentum, dui vitae
+          fringilla scelerisque, velit mi vehicula est, ut cursus tellus purus a metus.</p>
+      </div>
+      <div class="tab-pane fade" id="noticia3" role="tabpanel" aria-labelledby="noticia3-tab">
+        <h2>Noticia 3</h2>
+        <p>Nunc nec sagittis metus. Maecenas ut venenatis ex, sit amet blandit purus. Sed rhoncus massa non tempor
+          hendrerit. Fusce sed enim id ligula feugiat ultricies. Mauris blandit, lacus id semper facilisis, risus urna
+          efficitur dui, a rutrum mauris urna et ligula.</p>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
