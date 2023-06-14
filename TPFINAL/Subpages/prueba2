@@ -1,40 +1,77 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Página de Noticias</title>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0/css/bootstrap.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noticia - Título de la Noticia</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        /* Estilos adicionales personalizados */
+        body {
+            padding-top: 80px;
+        }
+        .navbar {
+            background-color: #333;
+        }
+        .navbar-brand {
+            color: #fff;
+        }
+        .noticia {
+            margin-bottom: 30px;
+        }
+        .noticia img {
+            width: 100%;
+            height: auto;
+            margin-bottom: 20px;
+        }
+        .noticia .titulo {
+            font-size: 28px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .noticia .fecha {
+            font-size: 14px;
+            color: #999;
+        }
+        .noticia .contenido {
+            font-size: 16px;
+        }
+    </style>
 </head>
-
 <body>
-  <div class="container mt-5">
-    <h1>Noticias</h1>
+    <!-- Barra de navegación -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Nombre del Sitio</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Noticias</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
-    <!-- Noticia -->
-    <div class="card">
-      <img src="imagen1.jpg" class="card-img-top" alt="Imagen 1">
-      <div class="card-body">
-        <h5 class="card-title">Título de la Noticia</h5>
-        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris tempor ex eget mi
-          ullamcorper, id viverra felis lacinia. Sed id turpis sit amet risus finibus efficitur.</p>
-      </div>
-      <img src="imagen2.jpg" class="card-img-top" alt="Imagen 2">
-      <div class="card-body">
-        <p class="card-text">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;
-          Aliquam vitae efficitur est. Vivamus id mi ac felis fermentum tempor. Fusce vulputate lectus nec elit
-          tincidunt.</p>
-      </div>
-      <img src="imagen3.jpg" class="card-img-top" alt="Imagen 3">
-      <div class="card-body">
-        <p class="card-text">Phasellus tincidunt tortor ac dapibus pellentesque. Integer eget sem a dui congue
-          consectetur. Aenean ultricies pharetra metus sed consectetur.</p>
-      </div>
+    <!-- Contenido principal -->
+    <div class="container">
+        <div class="noticia">
+            <img src="ruta_de_la_imagen.jpg" alt="Imagen de la noticia" class="img-fluid">
+            <h1 class="titulo">Título de la Noticia</h1>
+            <p class="fecha">Fecha de Publicación</p>
+            <p class="contenido">Contenido de la noticia...</p>
+        </div>
     </div>
-  </div>
 
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0/js/bootstrap.bundle.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
-
 </html>
